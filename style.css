@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url("../Mapa\ Inicio-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arg {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 37.2%;
+  margin-left: 35.05%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.arg:hover {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  
+}
+
+.mexico {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: 27.2%;
+  margin-left: 27.3%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.mexico:hover {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+.usa {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 33%;
+  z-index: 1;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.usa:hover, .centro:focus, .centro:active  {
+  /* transform: rotate(360deg) scale(1.6);
+  transition: 1s; */
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+div:hover {
+  z-index: 10;
+}
