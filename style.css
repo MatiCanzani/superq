@@ -82,6 +82,96 @@ body {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-div:hover {
-  z-index: 10;
+
+@media screen and (max-width: 615px) {
+  body {
+    background-image: url("./assets/Web\ Super\ Q\ final-16-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .arg {
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 123%;
+    margin-left: 52%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .arg img{
+    width: 80%;
+  }
+  
+  .arg:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    
+  }
+  
+  .mexico {
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 80%;
+    margin-left: 22.3%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .mexico img{
+    width: 80%;
+  }
+  
+  .mexico:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
+  
+  .usa {
+    position: absolute;
+    margin-top: 66%;
+    margin-left: 46%;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .usa img{
+    width: 80%;
+  }
+  
+  .usa:hover, .centro:focus, .centro:active  {
+    /* transform: rotate(360deg) scale(1.6);
+    transition: 1s; */
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
 }
+
