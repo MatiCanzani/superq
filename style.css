@@ -5,7 +5,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background-image: url("./assets/Mapa\ Inicio-01.png");
+  background-image: url("./assets/Map_home.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -100,7 +100,7 @@ body {
 
 @media screen and (max-width: 615px) {
   body {
-    background-image: url("./assets//Mapa\ Mobile\ con\ europa-16.png");
+    background-image: url("./assets/Map_Mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -166,10 +166,8 @@ body {
 
 
   .spain {
-    position: absolute;
     margin-top: 77%;
     margin-left: 68%;
-    z-index: 1;
   }
 
   .spain img{
